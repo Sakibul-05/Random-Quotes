@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width:980px;
+    /* border: 2px solid grey; */
+    margin: auto;
+}
+.quotesContainer{
+    text-align: center;
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 2rem 0 2rem 0;
+    height: 220px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.quotes{
+    margin-bottom: 1rem;
+    font-style: italic;
+     
+}
+.quotes::after{
+    content:'"';
+}
+.quotes::before{
+    content:'"';
+}
+.authorName{
+     font-weight: bold;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+     height: 2rem;
+     padding: 0 1rem;
+     background-color:#0D6EFD;
+     color: #ffff;
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 2px 2px 5px rgb(153, 153, 153);
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #0362f1;
+}
